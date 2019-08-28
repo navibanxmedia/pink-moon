@@ -16,7 +16,7 @@ fields:
   label: State
 - type: text
   name: postal-code
-  label: postal-code
+  label: Zip Code
 - type: text
   name: type
   label: type
