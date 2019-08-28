@@ -1,0 +1,8 @@
+{% for agent in site.data.agent %}
+
+<h5>Interested? Contact {{agent.name}}!</h5>
+                        <p> Mobile: <a href="tel:{{page.phone-number}}">{{agent.phone-number}}</a></p>
+                            <p>Email: <a href="mailto:{{page.email}}">{{agent.email}}</a>
+                        </p>
+
+{% endfor %}
