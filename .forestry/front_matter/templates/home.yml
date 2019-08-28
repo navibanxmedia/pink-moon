@@ -100,5 +100,4 @@ fields:
   label: num-floor
   hidden: true
 pages:
-- unbranded.html
 - index.html
