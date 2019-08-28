@@ -8,7 +8,7 @@ fields:
   default: 123 Your Listing Dr
 - type: text
   name: city
-  label: city
+  label: City
 - type: number
   name: state
   label: state
