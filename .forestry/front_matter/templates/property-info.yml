@@ -22,7 +22,7 @@ fields:
   label: Property Type
 - type: text
   name: room-count
-  label: room-count
+  label: Number of Rooms
 - type: text
   name: bath-count
   label: bath-count
