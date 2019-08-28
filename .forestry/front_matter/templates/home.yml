@@ -99,5 +99,3 @@ fields:
   name: num-floor
   label: num-floor
   hidden: true
-pages:
-- index.html
