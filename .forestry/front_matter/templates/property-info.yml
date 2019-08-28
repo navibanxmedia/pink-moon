@@ -37,6 +37,6 @@ fields:
   label: description
 - type: file
   name: photo
-  label: photo
+  label: Featured Photo
 pages:
 - _data/home-info.json
