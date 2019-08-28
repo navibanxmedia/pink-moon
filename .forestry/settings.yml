@@ -28,7 +28,7 @@ sections:
   - social
 - type: document
   path: index.html
-  label: MEDIA
+  label: BRANDED
   templates:
   - home
 - type: document
