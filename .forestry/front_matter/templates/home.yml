@@ -46,8 +46,3 @@ fields:
   config:
     required: false
   label: Branded Video
-- name: unbranded-video-link
-  type: text
-  config:
-    required: false
-  label: 'Unbranded Video '
