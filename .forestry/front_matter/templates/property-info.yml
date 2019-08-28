@@ -9,9 +9,11 @@ fields:
 - type: text
   name: city
   label: City
-- type: number
-  name: state
-  label: state
+- name: state
+  type: text
+  config:
+    required: false
+  label: State
 - type: text
   name: postal-code
   label: postal-code
