@@ -18,6 +18,11 @@ sections:
   path: _data/agent.json
   label: Agent Info
   templates:
+  - author
+- type: document
+  path: index.html
+  label: Home
+  templates:
   - home
 - type: document
   path: contact.md
