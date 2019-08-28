@@ -4,16 +4,16 @@ hide_body: true
 fields:
 - type: text
   name: name
-  label: name
+  label: Agent Name
 - type: text
   name: email
-  label: email
+  label: Email
 - type: number
   name: license-number
-  label: license-number
+  label: License Number
 - type: text
   name: phone-number
-  label: phone-number
+  label: Phone Number
 - type: file
   name: photo
-  label: photo
+  label: Agent's Photo
