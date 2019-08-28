@@ -16,7 +16,7 @@ sections:
   - social
 - type: document
   path: _data/agent.json
-  label: Agent
+  label: Agent Info
   templates:
   - author
 - type: document
