@@ -4,7 +4,8 @@ hide_body: true
 fields:
 - type: text
   name: street-address
-  label: street-address
+  label: Street Address
+  default: 123 Your Listing Dr
 - type: text
   name: city
   label: city
