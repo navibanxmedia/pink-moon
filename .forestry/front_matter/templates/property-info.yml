@@ -15,8 +15,8 @@ fields:
 - type: text
   name: postal-code
   label: Zip Code
-- name: price
-  type: number
+- type: number
+  name: price
   label: Price
   description: ''
   default: 0
