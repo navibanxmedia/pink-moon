@@ -41,3 +41,13 @@ fields:
   name: num-floor
   label: num-floor
   hidden: true
+- name: branded-video-link
+  type: text
+  config:
+    required: false
+  label: Branded Video
+- name: unbranded-video-link
+  type: text
+  config:
+    required: false
+  label: 'Unbranded Video '
