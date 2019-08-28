@@ -20,7 +20,7 @@ sections:
   templates:
   - author
 - type: document
-  path: index.md
+  path: index.html
   label: Home
   templates:
   - home
