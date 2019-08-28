@@ -3,15 +3,102 @@ label: Home
 hide_body: true
 fields:
 - type: text
-  name: title
-  label: Title
-  description: The title of the page.
-  config:
-    required: true
-- type: text
   name: layout
-  label: Layout
+  label: layout
   hidden: true
-  default: home
-  config:
-    required: true
+- type: text
+  name: title
+  label: Header title
+- type: text
+  name: street-adress
+  label: Street address
+- type: text
+  name: city
+  label: City
+- type: text
+  name: state
+  label: State
+- type: text
+  name: price
+  label: Listing price
+- type: text
+  name: agent-name
+  label: Listing agent's name
+- type: text
+  name: phone-number
+  label: Listing agent's phone number
+- type: text
+  name: email
+  label: Listing agent's email
+- type: text
+  name: fb
+  label: fb
+  hidden: true
+- type: text
+  name: linkedin
+  label: linkedin
+  hidden: true
+- type: text
+  name: ig
+  label: ig
+  hidden: true
+- type: text
+  name: twitter
+  label: twitter
+  hidden: true
+- type: text
+  name: image-path
+  label: image-path
+  hidden: true
+- type: file
+  name: top-img
+  label: top-img
+  hidden: true
+- type: text
+  name: matterport
+  label: matterport
+  hidden: true
+- type: text
+  name: video-link
+  label: video-link
+  hidden: true
+- type: text
+  name: img-count
+  label: img-count
+  hidden: true
+- type: text
+  name: type
+  label: Property type (Ex. Single Family Home)
+- type: text
+  name: num-rooms
+  label: Number of rooms
+- type: text
+  name: num-baths
+  label: Number of bathrooms
+- type: text
+  name: num-sqft
+  label: Area (sqft)
+- type: text
+  name: num-lot
+  label: Lot's area (sqft)
+- type: text
+  name: num-year-built
+  label: Year built
+- type: textarea
+  name: description
+  label: Property description
+- type: text
+  name: map-link
+  label: map-link
+  hidden: true
+- type: text
+  name: floorplans
+  label: floorplans
+  hidden: true
+- type: text
+  name: num-floor
+  label: num-floor
+  hidden: true
+pages:
+- unbranded.html
+- index.html
