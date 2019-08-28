@@ -19,7 +19,6 @@ sections:
 - type: document
   path: _data/media.json
   label: Photos & Video
-  match: "**/*"
 - type: document
   path: _config.yml
   label: Global Site Config
