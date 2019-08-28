@@ -19,7 +19,7 @@ fields:
   label: Zip Code
 - type: text
   name: type
-  label: type
+  label: Property Type
 - type: text
   name: room-count
   label: room-count
