@@ -24,7 +24,7 @@ sections:
   label: Property Info
 - type: document
   path: index.html
-  label: Home
+  label: MEDIA
   templates:
   - home
 - type: document
