@@ -15,8 +15,8 @@ sections:
   templates:
   - social
 - type: document
-  path: _data/author.json
-  label: Author
+  path: _data/agent.json
+  label: Agent
   templates:
   - author
 - type: document
