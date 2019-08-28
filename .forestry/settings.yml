@@ -5,10 +5,6 @@ admin_path: admin
 webhook_url: https://api.stackbit.com/project/5d608383d5b6f60014ce57a5/webhook/forestry
 sections:
 - type: document
-  path: _data/home-info.json
-  label: Property Info
-  match: "**/*"
-- type: document
   path: _config.yml
   label: Global Site Config
   templates:
@@ -23,6 +19,9 @@ sections:
   label: Agent Info
   templates:
   - author
+- type: document
+  path: _data/home-info.json
+  label: Property Info
 - type: document
   path: index.html
   label: Home
