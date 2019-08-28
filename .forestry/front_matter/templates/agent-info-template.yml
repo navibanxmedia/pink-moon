@@ -1,0 +1,19 @@
+---
+label: Agent Info Template
+hide_body: true
+fields:
+- type: text
+  name: name
+  label: name
+- type: text
+  name: email
+  label: email
+- type: number
+  name: license-number
+  label: license-number
+- type: text
+  name: phone-number
+  label: phone-number
+- type: file
+  name: photo
+  label: photo
