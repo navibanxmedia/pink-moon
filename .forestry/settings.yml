@@ -5,7 +5,7 @@ admin_path: admin
 webhook_url: https://api.stackbit.com/project/5d608383d5b6f60014ce57a5/webhook/forestry
 sections:
 - type: heading
-  label: Admin
+  label: Client
 - type: document
   path: _data/agent.json
   label: Agent Info
@@ -15,7 +15,11 @@ sections:
   path: _data/home-info.json
   label: Property Info
 - type: heading
-  label: Client
+  label: Admin
+- type: document
+  path: _data/media.json
+  label: Photos & Video
+  match: "**/*"
 - type: document
   path: _config.yml
   label: Global Site Config
