@@ -19,7 +19,6 @@ sections:
 - type: document
   path: unbranded.html
   label: Unbranded
-  match: "**/*"
 - type: document
   path: _data/media.json
   label: Photos & Video
