@@ -373,7 +373,6 @@ models:
   page_menus:
     type: object
     label: Page Menus
-    labelField: null
     description: 'Page menus model, defines menus that can be specified from within pages'
     fields:
       - type: page_menu_item
