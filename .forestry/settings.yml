@@ -4,6 +4,10 @@ auto_deploy: false
 admin_path: admin
 webhook_url: https://api.stackbit.com/project/5d608383d5b6f60014ce57a5/webhook/forestry
 sections:
+- type: document
+  path: unbranded.html
+  label: Unbranded
+  match: "**/*"
 - type: heading
   label: Client
 - type: document
