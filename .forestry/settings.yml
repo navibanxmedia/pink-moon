@@ -34,29 +34,6 @@ sections:
   label: BRANDED
   templates:
   - home
-- type: document
-  path: contact.md
-  label: Contact
-  templates:
-  - contact
-- type: directory
-  path: ''
-  label: Page
-  create: all
-  match: "**/*.md"
-  exclude: "{_posts/**,README.md,LICENSE.md,index.md,contact.md}"
-  templates:
-  - page
-- type: jekyll-posts
-  label: Post
-  create: all
-  templates:
-  - post
-- type: document
-  path: _data/menus.yml
-  label: Site Menus
-  templates:
-  - site_menus
 upload_dir: images
 public_path: "/images"
 front_matter_path: ''
