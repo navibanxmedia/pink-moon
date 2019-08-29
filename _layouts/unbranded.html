@@ -102,9 +102,9 @@
                 <div class="col-md-10">
                     <span class="d-inline-block text-white px-3 mb-3 property-offer-type rounded"></span>
                     <h1 class="mb-2">{{page.title}}</h1>
-                    {%if page.price != 0%}
-                    <p class="mb-5"><strong class="h2 text-orange font-weight-bold">{{page.price}}</strong></p>
-                    {%endif%}
+                   
+                    <p class="mb-5"><strong class="h2 text-orange font-weight-bold">{{site.data.home-info.price}}</strong></p>
+                    
                 </div>
             </div>
         </div>
@@ -117,8 +117,8 @@
                     <div class="mb-5">
                         <div class="slide-one-item home-slider owl-carousel" id="details">
                             
-                            {% for num in (1..page.img-count) %}
-                                <div><img src="{{page.image-path}}{{num}}.jpg" alt="Image" class="img-fluid"></div>
+                            {% for num in (1..site.data.media.img-count) %}
+                                <div><img src="{{site.data.media.img-path}}{{num}}.jpg" alt="Image" class="img-fluid"></div>
                             {% endfor %}
                             
                         </div>
@@ -126,25 +126,25 @@
                     <div class="bg-white">
                         <div class="row mb-5">
                             <div class="col-md-6">
-                                {%if page.price != 0%}
-                                <strong class="text-orange h1 mb-3">{{page.price | number_with_delimiter}}</strong>
-                                {%endif%}
+                               
+                                <strong class="text-orange h1 mb-3">{{site.data.home-info.price}}</strong>
+                                
                             </div>
                             <div class="col-md-6">
                                 <ul class="property-specs-wrap mb-3 mb-lg-0  float-lg-right">
                                     <li>
                                         <span class="property-specs">Beds</span>
-                                        <span class="property-specs-number">{{page.num-rooms}}<sup></sup></span>
+                                        <span class="property-specs-number">{{site.data.home-info.room-count}}</span>
 
                                     </li>
                                     <li>
                                         <span class="property-specs">Baths</span>
-                                        <span class="property-specs-number">{{page.num-baths}}</span>
+                                        <span class="property-specs-number">{{site.data.home-info.bath-count}}</span>
 
                                     </li>
                                     <li>
                                         <span class="property-specs">SQ FT</span>
-                                        <span class="property-specs-number">{{page.num-sqft}}</span>
+                                        <span class="property-specs-number">{{site.data.home-info.sqft}}</span>
 
                                     </li>
                                 </ul>
@@ -153,32 +153,32 @@
                         <div class="row mb-5">
                             <div class="col-md-6 col-lg-4 text-left border-bottom border-top py-3">
                                 <span class="d-inline-block text-black mb-0 caption-text">Home Type</span>
-                                <strong class="d-block">{{page.type}}</strong>
+                                <strong class="d-block">{{site.data.home-info.type}}</strong>
                             </div>
                             <div class="col-md-6 col-lg-4 text-left border-bottom border-top py-3">
                                 <span class="d-inline-block text-black mb-0 caption-text">Year Built</span>
-                                <strong class="d-block">{{page.num-year-built}}</strong>
+                                <strong class="d-block">{{site.data.home-info.year-built}}</strong>
                             </div>
                             <div class="col-md-6 col-lg-4 text-left border-bottom border-top py-3">
                                 <span class="d-inline-block text-black mb-0 caption-text">Lot Sq Ft</span>
-                                <strong class="d-block">{{page.num-lot}}</strong>
+                                <strong class="d-block">{{site.data.home-info.lot-sqft}}</strong>
                             </div>
                         </div>
                         <h2 class="h4 text-black">More Info</h2>
-                        <p>{{page.description}}
+                        <p>{{site.data.home-info.description}}
 </p>
 
                         <hr>
                         
                         
                         
-                            {% if page.video-link !=0 %}
+                            {% if site.data.media.video-ready !=0 %}
                         <div class="row mt-5">
                             <div class="col-12" id="video">
                                 <h2 class="h4 text-black mb-3">Property Video</h2>
                             </div>
                             <div class="col-12">
-                            <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/{{page.video-link}}?title=0&byline=0&portrait=0?loop=1" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+                            <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/{{site.data.media.unbranded-video-link}}?title=0&byline=0&portrait=0?loop=1" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
                         <script src="https://player.vimeo.com/api/player.js"></script>
                     </div>
                         </div>
@@ -201,11 +201,11 @@
                                 <h2 class="h4 text-black mb-3">Property Gallery</h2>
                             </div>
                             
-                                {% for num in (1..page.img-count) %}
+                                 {% for num in (1..site.data.media.img-count) %}
                                 <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
-                                    <a href="{{page.image-path}}{{num}}.jpg" class="image-popup gal-item"><img src="{{page.image-path}}{{num}}.jpg" alt="Image" class="img-fluid"></a>
+                                    <a href="{{page.image-path}}{{num}}.jpg" class="image-popup gal-item"><img src="{{site.data.media.img-path}}{{num}}.jpg" alt="Image" class="img-fluid"></a>
                                 </div>
-                            {%endfor%}                            
+                            {%endfor%}                             
                         </div>
 
                     
